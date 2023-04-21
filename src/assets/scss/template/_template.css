@@ -1,0 +1,147 @@
+body,
+html,
+.body {
+  background: #f3f3f3 !important; }
+  body .row.main-container,
+  html .row.main-container,
+  .body .row.main-container {
+    background: #000000 !important;
+    background-color: #000000 !important; }
+  body img,
+  html img,
+  .body img {
+    clear: both;
+    display: block;
+    height: auto;
+    max-width: 700px;
+    outline: none;
+    text-decoration: none;
+    width: 100%;
+    color: #ffffff;
+    margin: 0 auto; }
+
+.topheader {
+  background: #000000;
+  background-color: #000000;
+  display: block; }
+
+.top_logo {
+  clear: both;
+  display: inline-block;
+  height: auto;
+  max-width: 167px;
+  outline: none;
+  text-decoration: none;
+  width: 90%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  horizontal-align: center;
+  align-self: center;
+  vertical-align: center; }
+
+.pdiddy-text-elements p {
+  color: white;
+  font-size: 24px; }
+  .pdiddy-text-elements p.large-p {
+    font-size: 27px; }
+
+.pdiddy-text-elements span.button {
+  background-color: #ffffff;
+  border-color: #ffffff;
+  color: #000000;
+  border-radius: 0px;
+  border-style: solid;
+  border-width: 13px 18px;
+  display: inline-block;
+  letter-spacing: 1px;
+  max-width: 300px;
+  min-width: 100px;
+  text-align: left;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px; }
+  .pdiddy-text-elements span.button:hover {
+    color: #000000; }
+  .pdiddy-text-elements span.button img {
+    width: 14px;
+    height: 13px; }
+
+.top-footer {
+  background: #fefefe;
+  background-color: #fefefe;
+  display: block;
+  margin: 0;
+  padding-bottom: 7px;
+  padding-top: 30px !important; }
+  .top-footer .left-padding-fix {
+    padding-left: 84px !important;
+    padding-bottom: 7px; }
+  .top-footer .superbowl-logo
+  img {
+    display: inline-block;
+    max-width: 144px;
+    outline: none;
+    text-decoration: none; }
+  .top-footer .superbowl-savings
+  th h5 {
+    font-weight: 700 !important;
+    text-align: left;
+    direction: ltr;
+    font-size: 19px;
+    line-height: 26px;
+    padding-top: 7px;
+    padding-right: 0px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+    margin: 0; }
+
+.mid-footer p {
+  font-size: 12px;
+  line-height: 18px; 
+}
+.mid-footer a {
+  text-decoration: none; 
+}
+
+.mid-footer .footer-paragraph {
+  padding: 20px;
+  padding-left: 70px !important;
+  padding-bottom: 7px;
+  padding-top: 7px;
+  display: block; }
+
+.footer-links {
+  padding-left: 84px !important; }
+  .footer-links .menu-item {
+    display: block;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: left;
+    text-decoration: none;
+    direction: ltr; 
+/*padding-left: 84px !important;*/
+  }
+
+.footer-bottom a .home-link {
+  text-decoration: none; }
+
+.extra-info {
+  padding-left: 84px !important;
+  direction: ltr;
+  text-align: left;
+  color: #000000; }
+  .extra-info span {
+    font-size: 10px;
+    line-height: 18px; }
+
+.social-icons img {
+  margin-right: 5px;
+  display: inline-block;
+  vertical-align: bottom;
+  height: auto;
+  max-height: 24px;
+  max-width: 24px;
+  width: 100%; }
+
+/*# sourceMappingURL=_template.css.map */

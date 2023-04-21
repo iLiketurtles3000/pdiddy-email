@@ -1,0 +1,508 @@
+// These are the styles to make some of the templates look extra nice.
+// Feel free to remove these styles for production!
+
+// Body Styles 
+body,
+html, 
+.body {
+  background: #f3f3f3 !important;
+
+  /*! start of header selectors */
+
+  .topheader {
+    background: #000000;
+    background-color: #000000;
+    display: block;
+  }
+
+  .top_logo {
+    clear: both;
+    display: inline-block;
+    height: auto;
+    max-width: 167px;
+    outline: none;
+    text-decoration: none;
+    width: 90%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    horizontal-align: center;
+    align-self: center;
+    vertical-align: center;
+  }
+
+  .pdiddy-text-elements p {
+
+    color: #ffffff;
+    direction: ltr;
+    text-align: center;
+    color: #ffffff;
+    font-family: 'UberMoveText-Regular','HelveticaNeue',Helvetica,Arial,sans-serif;
+    font-size: 20px;
+    line-height: 26px;
+    padding-bottom: 25px;
+    padding-top: 7px;
+    
+  }
+
+  .pdiddy-text-elements span {
+    &.button {
+      background-color: #ffffff;
+      border-color: #ffffff;
+      color: #000000;
+      border-radius: 0px;
+      border-style: solid;
+      border-width: 13px 18px;
+      
+      display: block;
+      letter-spacing: 1px;
+      max-width: 300px;
+      min-width: 100px;
+      text-align: center;
+      text-decoration: none;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 22px;
+
+      &:hover {
+        color: #000000;
+      }
+      img {
+        width: 14px;
+        height: 13px;
+        float: right;
+        display: inline-block;
+        padding: 0;
+        padding-top:3px;
+      }
+    }
+  }
+
+  /*! End of header selectors */
+
+
+  /*! start of body selectors */
+  .main-container {
+    .columns {
+      padding-top: 20px;
+      padding-bottom: 10px;
+      padding-left: 0;
+      padding-right: 0;
+
+      .pdiddy-image {
+
+        width: 100%;
+        width: 700px;;
+      }
+    }
+  }
+
+  .center-tag {
+    min-width: auto;
+  }
+
+  .row.main-container {
+
+    background: #000000 !important;
+    background-color: #000000 !important;
+    padding: 0 !important;
+//had2target the |first| tag to remove all paddings around the image otherwise still retained16px
+
+& .first {
+  padding: 0;
+  img {
+    clear: both;
+    display: block;
+    height: auto;
+    max-width: 700px;
+    outline: none;
+    text-decoration:none;
+    width: 700px;
+    width: 100%;
+    color: #ffffff;
+    margin: 0 auto;
+    padding: 0;
+  }
+}
+}
+
+.mid-main-container {
+  background: #000000;
+  background-color: #000000;
+
+  // unsure as to the use of the - logo section now that i will be targeting the first tag itself directly
+  & .midpage-logo img {
+    padding: 0;
+    // padding-bottom: 12px;
+    display: inline-block;
+    width: 100%;
+    max-width: 293px;
+    margin:0 auto;
+    padding-bottom: 23px;
+    padding-top: 23px;
+    width: 100%;
+    height: auto;
+    outline: none;
+    text-decoration: none;
+  }
+
+  & .first-para h2 {
+    font-size:34px;
+    line-height:40px;
+    font-weight:500;
+    color:#ffffff;
+    display: block;
+    padding-bottom: 12px;
+  }
+
+  & .second-para span {
+    // font-family: arial, sans-serif;
+    display: block;
+    // direction: ltr;
+    text-align: center;
+    font-size: 20px;
+    line-height: 26px;
+    color: #ffffff;
+    padding-top: 0;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+  }
+}
+
+
+.bass-container {
+  .columns {
+    // padding-top: 20px;
+    padding-bottom: 10px;
+
+    .bass-image {
+      width: 100%;
+    }
+  }
+}
+
+.bass-container img {
+  width: 100%;
+  max-width: 700px;
+  clear: both;
+  display: inline-block;
+  height: auto;
+  outline: none;
+  text-decoration: none;
+  width: 700px;
+  // color: #ffffff;
+  margin: 0 auto;
+  padding: 0;
+}
+
+/*! End of body selectors */
+
+
+/*! start of Footer selectors */
+
+.superbowl-logo
+img {
+  
+  display: inline-block;
+  max-width: 144px;
+  outline: none;
+  text-decoration: none;
+} 
+
+
+.superbowl-savings {
+
+  .estay-tunis {
+
+    font-weight: 700 !important;
+    text-align: left;
+    direction: ltr;
+    font-size: 20px;
+    line-height: 26px;
+    padding-top: 7px;
+    padding-right: 0;
+    padding-bottom: 10px;
+    padding-left: 0;
+    margin: 0;
+    color: #000000;
+
+  }
+}
+
+//to target each link using the inky method, |menu-item| is the way not |a|
+//same for padding, set in global not here
+//links color comes from global settings not here because global overwrites everything
+.menu-item {
+  display: inline-block;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: left;
+  text-decoration: none;
+  direction: ltr;
+  padding-left: 84px !important;
+
+}
+
+.footer-bottom {
+
+  a {
+   & .home-link {
+    text-decoration: none;
+  }
+}
+}
+
+.extra-info {
+  padding-left: 84px !important;
+  direction:ltr; 
+  text-align: left; 
+  color: #000000;
+  text-decoration: none;
+  & a {
+    color: #000000;
+    font-family: arial, sans-serif;
+  }
+
+  & span {
+    font-size:10px;
+    line-height:18px;
+  }
+}
+
+//used|dot last|tag to target icons since I can see that they are inside that table from console
+
+
+.social-icons img {
+ 
+  margin-right: 5px;
+  display: inline-block;
+  vertical-align: bottom;
+  height: auto;
+  max-height: 24px;
+  max-width: 24px;
+  width: 100%;
+}
+
+  // Start of FOOTER SECTION
+
+  .platform-icons-area {
+   color: #ffffff;
+   p {
+    font-family:'TTNorms',system-ui,sans-serif;
+    font-size:16px;
+    line-height:22px;
+    font-weight:500;
+    margin:0;
+    color: #191919;
+    padding-top: 12px;
+  }
+  img {
+    // width: 27px;
+    border: 0;
+    display: block;
+    height: auto;
+    line-height: 100%;
+    outline: none;
+    text-decoration: none;
+    align: left;
+    vertical-align: top;
+  }
+
+  & .platformicon1 {
+    width: 55px;
+    height: 27px;
+  }
+
+  & .platformicon2 {
+    width: 45px;
+    height: 27px;
+  }
+
+  & .platformicon3 {
+    width: 30px;
+    height: 28px;
+  }
+
+  & .platformicon4 {
+    width: 27px;
+    height: 28px;
+  }
+}
+.footer-top {
+  background-color: #f4f4f4;
+  background: #f4f4f4;
+  // padding-top: 50px;
+
+  .footer-logo {
+    width: 183px;
+    height: 22px;
+    display: block;
+    padding-top: 50px;
+    padding-bottom: 28px;
+  }
+}
+
+.testing1 {
+  img {
+    border: 0;
+    display: block;
+    height: auto;
+    line-height: 100%;
+    outline: none;
+    text-decoration: none;
+  }
+}
+
+.pre-small-print {
+
+  font-family:'TTNorms',system-ui,sans-serif;
+  font-size:14px;
+  line-height:18px;
+  font-weight:400;
+  margin:0;
+  color: #9a9a9a;
+  padding-top: 12px;
+}
+
+.small-print {
+  p {
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size: 12px;
+    text-align: center;
+    padding-bottom: 5px;
+    line-height: 1.5em;
+    letter-spacing: 0.5px;
+    padding-right: 30px;
+    padding-left: 30px;
+    hyphens: none;
+    font-weight: 400;
+    color: #9a9a9a;
+    display: block;
+  }
+}
+
+
+.socials-capsule {
+  max-width: 192px;
+  width: 192px;
+  min-width: 155px;
+  
+
+}
+
+.menu-divider {
+  display: block;
+  height: 20px;
+  width: 1px;
+  background: #9a9a9a;
+  background-color: #9a9a9a;
+}
+
+.footer-urls {
+ .columns {
+  a {
+    text-decoration: none;
+    color: #9a9a9a;
+    font-family: 'TTNorms',system-ui,sans-serif;
+  }
+
+  p {
+    font-weight: 500;
+    line-height: 18px;
+    color: #ffffff;
+    font-size: 14px;
+  }
+
+  .menu-divider {
+    display: inline-block;
+    height: 10px;
+    color: #9a9a9a;
+  }
+}
+}
+
+.inner-link {
+  text-decoration: none;
+  color: #9a9a9a;
+}
+
+.bottom-menu-area {
+
+  .columns {
+    padding-bottom: 0;
+    a  {
+      text-decoration: none;
+      color: #000000;
+    }
+    ul {
+      list-style: none;
+      display: inline-block;
+      padding-inline-start: 0;
+      padding-bottom: 0;
+      margin-bottom: 0;
+      &.remove-bottom {
+        padding-bottom: 0;
+        margin-bottom: 0;
+
+      }
+      &.remove-top {
+        padding-top: 0;
+        padding-bottom: 0;
+        margin-top: 0;
+
+      }
+
+    }
+    li {
+      
+      font-weight: 300;
+
+      font-size: 12px !important;
+      // padding: 5px;
+      &.first-span {
+        padding-top: 0 !important;
+      }
+      &.last-span {
+        padding-bottom: 0 !important;
+      }
+      a {
+        line-height: 18px;
+      }
+    }
+    span {
+      
+      line-height: 18px;
+      font-weight: 700;
+      
+    }
+  }
+}
+.text-wall p, span {
+  direction: ltr;
+  text-align: left;
+  word-wrap: normal;
+  font-size: 12px;
+  font-weight: 400;
+  line-height:18px;
+  text-align: left;
+  font-family: arial, sans-serif;
+  color: #000000;
+
+}
+
+.last-section-bottom {
+  p {
+    font-size: 10px;
+    line-height: 18px;
+    vertical-align: middle;
+    text-align: left;  }
+  }
+////////////////////////////////////
+
+
+}
+
+
+
+
+  // ! End of Footer selectors// 
